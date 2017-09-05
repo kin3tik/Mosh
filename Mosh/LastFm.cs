@@ -11,7 +11,7 @@ namespace Mosh
     public class LastFm
     {
         private const string Uri = "http://ws.audioscrobbler.com/2.0/";
-        private const string ApiKey = "ba692a84eaea1f1bf5a7d599aec16a0f";
+        private const string ApiKey = "";
 
         public static async Task<List<Artist>> GetArtists(string user)
         {
